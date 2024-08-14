@@ -4,7 +4,7 @@
 -- convention setup finction
 -- require'module'.setup({ key = "value"})
 local function setup(parameters)
-	print('--> SETUPing')
+	print('--> raa-xample.SETUPing')
 end
 
 -- add a command
