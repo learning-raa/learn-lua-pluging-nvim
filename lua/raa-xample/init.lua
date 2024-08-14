@@ -1,9 +1,12 @@
 -- init.lua (raa-xample)
 print('--> inside raa-xample..')
 
-local function setup(list)
-	print('setting up..')
+-- convention setup finction
+-- require'module'.setup({ key = "value"})
+local function setup(parameters)
+	print('--> SETUPing')
 end
+
 
 local function say_hellow()
 	print('---> hell-0')
@@ -16,6 +19,6 @@ end
 return {
 	setup = setup,
 	sayHellow = say_hellow,
-	printTest = print_test
+	printTest = print_test,
 }
 
